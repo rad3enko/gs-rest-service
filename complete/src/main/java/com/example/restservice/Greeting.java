@@ -2,7 +2,7 @@ package com.example.restservice;
 
 public class Greeting {
 
-	private final long id;
+	private long id;
 	private final String content;
 
 	public Greeting(long id, String content) {
@@ -16,5 +16,9 @@ public class Greeting {
 
 	public String getContent() {
 		return content;
+	}
+
+	public void setId(long id) {
+		this.id = id;
 	}
 }
